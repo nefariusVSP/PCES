@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="..\js\jquery.js"></script>
+    <script type="text/javascript" src="..\js\Editor.js"></script>
+    <script type="text/javascript" src="..\js\enter.js"></script>
+    <link rel="stylesheet" href="..\css\main.css" type="text/css">
+</head>
+<body>
+    <div id="shodow"></div>
+    <div id="dialog-form">
+        <div class="head">
+            <div class="left" id="textDialog-form"></div>
+            <div class="right"><input type="button" value="X" id="exitDialog"/></div>
+        </div>
+        <form>
+            <ul id="selectType">
+                <li><input type="button" class="selectTypeObject" id="enterText" value="Текст" /></li>
+                <li><input type="button" class="selectTypeObject" id="enterDiap" value="Диапозон значений" /></li>
+                <li><input type="button" class="selectTypeObject" id="enterImeg" value="Картинки" /></li>
+                <li><input type="button" class="selectTypeObject" id="enterBool" value="Да - Нет" /></li>
+            </ul>
+            <ul id="selectText">
+            </ul>
+        </form>
+    </div>
+    <div id="head">
+        <div class="width">
+            <div id="logo" class="left"><p>PCES</p></div>
+        </div>
+    </div>
+    <div id="body">
+        <div class="width">
+            <div id="window">
+                <div class="head">
+                    <div class="left"><p>Список баз знаний</p></div>
+                    <div class="right"><p>Поиск</p></div>
+                </div>
+                <div id="editor"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

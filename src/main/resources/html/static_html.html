@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="enter.js"></script>
+        <script type="text/javascript" src="inquiry.js"></script>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+    <div id="shodow"></div>
+    <div id="dialog-form">
+        <div class="head">
+            <div class="left"><p>Аутентификация</p></div>
+            <div class="right"><input type="button" value="X" id="exitDialog"/></div>
+        </div>
+        <form>
+            <p for="name">Login</p>
+            <input type="text" name="name" id="name"><br/>
+            <p for="password">Password</p>
+            <input type="password" name="password" id="password" ><br/>
+            <input type="button" value="Вход" id="buttonEnter"/>
+            <div id="call_res"></div>
+        </form>
+    </div>
+
+    <div id="head">
+        <div class="width">
+            <div id="logo" class="left"><p>PCES</p></div>
+            <div id="enter"class="right"><p>Вход</p></div>
+        </div>
+    </div>
+    <div id="body">
+        <div class="width">
+            <div id="window">
+                <div class="head">
+                    <div class="left"><p>Список баз знаний</p></div>
+                    <div class="right"><p>Поиск</p></div>
+                </div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
